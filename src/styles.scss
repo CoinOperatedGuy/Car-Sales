@@ -12,7 +12,7 @@ body {
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(2, minmax(350px, 1fr));
-  grid-template-rows: auto;
+  grid-template-rows: 85% 1px;
 }
 .box {
   display: flex;
@@ -49,4 +49,8 @@ body {
     box-shadow: lightgrey 2px 4px;
     color: black;
   }
+}
+
+.image {
+  width: 300px;
 }
