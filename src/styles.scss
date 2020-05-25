@@ -12,7 +12,7 @@ body {
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(2, minmax(350px, 1fr));
-  grid-template-rows: auto;
+  grid-template-rows: 85% 1px;
 }
 .box {
   display: flex;
@@ -35,15 +35,22 @@ body {
   }
 }
 .button {
-  background: hotpink;
-  border: 1px solid transparent;
+  background: steelblue;
+  border: 2px solid black;
+  box-shadow: steelblue 2px 4px;
   color: white;
-  margin-right: 1em;
+  // margin-right: 1em;
   padding: .25em .75em;
+  margin: 7px;
   transition: all .25s ease-in;
   &:hover {
     background: white;
-    border: 1px solid hotpink;
-    color: #333;
+    border: 2px solid steelblue;
+    box-shadow: lightgrey 2px 4px;
+    color: black;
   }
+}
+
+.image {
+  width: 300px;
 }
